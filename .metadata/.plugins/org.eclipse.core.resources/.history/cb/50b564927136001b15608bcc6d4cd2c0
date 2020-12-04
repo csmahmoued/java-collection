@@ -1,0 +1,24 @@
+package com.list.example;
+
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//create ArrayList of object Customer 
+		
+	ArrayList<Customer> list=new ArrayList<>();
+		
+	// add customers to list
+		list.add(new Customer(1, "mahmoud", "011252565"));
+		list.add(new Customer(2, "jak", "8652232"));
+		list.add(new Customer(3, "Mona", "99166"));
+		list.add(new Customer(4, "Laila", "54546563"));
+		
+		System.out.println(list.indexOf(1));
+		
+
+		
+	}
+}

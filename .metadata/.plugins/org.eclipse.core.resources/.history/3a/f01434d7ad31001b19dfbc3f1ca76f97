@@ -1,0 +1,11 @@
+package com.main
+
+fun main(arg:Array<String>){
+		println("hello kotlin");
+		var x="java";
+		var v=8.1;
+	println(" $x version: $v")
+	
+	
+	}
+

@@ -1,0 +1,6 @@
+package com.main
+
+interface Shap{
+	
+	fun draw();
+}

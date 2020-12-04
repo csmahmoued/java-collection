@@ -1,0 +1,14 @@
+package com.list.example;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		//create ArrayList of object Customer 
+		
+		
+		
+		
+		
+	}
+}

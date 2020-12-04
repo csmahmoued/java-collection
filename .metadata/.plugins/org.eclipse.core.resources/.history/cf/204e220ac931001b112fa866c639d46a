@@ -1,0 +1,13 @@
+package com.main
+
+interface Shap{
+	
+	fun draw();
+}
+
+class Circle:Shape
+{
+	fun draw(){
+		println("this circle")
+	}
+}

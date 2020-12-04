@@ -1,0 +1,16 @@
+package com.main
+
+fun main(arg:Array<String>){
+		
+		println("please enter the x: ")
+		var x=readLine().toString();
+		println("please enter the y: ");
+	var y=readLine().toString();
+		
+	println("The Result: "+(x+y))
+		
+	
+	
+	}
+
+

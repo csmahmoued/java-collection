@@ -1,0 +1,29 @@
+package com.list;
+
+import java.util.ArrayList;
+
+public class ArrayListImplemt {
+
+	public static void main(String[] args) {
+	
+		// create the ArrayList of Strings
+		ArrayList<String> names =new ArrayList<>();
+		
+		//add elements in Array
+		names.add("Jak");
+		names.add("Laila");
+		names.add("Mona");
+
+		// display elements of array by Foreach  
+		for(String n : names) {
+			System.out.println(n);
+		}
+		
+		// add another element
+		names.add("Luis");
+		
+		// display elements by Print
+		System.out.print(names);
+	}
+
+}

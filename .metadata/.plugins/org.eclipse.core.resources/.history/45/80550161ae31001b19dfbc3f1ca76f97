@@ -1,0 +1,12 @@
+package com.main
+
+fun main(arg:Array<String>){
+		
+		var a=readLine();
+		var b=readLine();
+	
+		println("$a+$b")
+	
+	}
+
+

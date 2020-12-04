@@ -1,0 +1,21 @@
+package com.linkedListImple;
+
+import java.util.LinkedList;
+
+public class LinkedListImp {
+
+	public static void main(String[] args) {
+	
+		//create linkedList of  object String
+		LinkedList<String> names=new LinkedList<>();
+		
+		//add elements in linkedList
+		names.add("Jak");
+		names.add("Laila");
+		names.add("Mona");
+		
+		//diplay data by Iterator
+		
+		
+	}
+}

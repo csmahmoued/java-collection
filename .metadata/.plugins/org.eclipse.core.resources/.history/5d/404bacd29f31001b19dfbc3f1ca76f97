@@ -1,0 +1,15 @@
+package com.main
+
+fun main(arg:Array<String>){
+		println("hello kotlin");
+	
+		val a:Int;
+		val b:Int;
+	a=20;
+	
+	b=200;
+	
+	println(a+b);
+	
+	}
+

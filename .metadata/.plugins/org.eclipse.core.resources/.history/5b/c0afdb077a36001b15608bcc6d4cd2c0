@@ -1,0 +1,55 @@
+package com.list.example;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+
+public class CustomerServices {
+
+	private ArrayList<Customer> list;
+
+	public CustomerServices() {
+		list=new ArrayList<>();
+	}
+
+	public ArrayList<Customer> getAllCustomer(){
+		return list;
+	}
+	
+	public boolean addCustomer(Customer customer) {
+		return list.add(customer);
+	}
+	public Customer getCustomerById(int id) {	
+		return list.get(id-1);
+	}
+	
+	public void deleteCustomerById(int id) {
+		list.remove(id-1);
+	}
+	
+	public void updateCustomer(Customer cust,int id) {
+		Customer c=list.get(id);
+		c.setName(cust.getName());
+		c.setPhone(cust.getPhone());
+		list.set(list.lastIndexOf(id),cust);
+		if(list.contains(cust)) {
+			list.set(list.lastIndexOf(cust),cust);
+
+			
+		}
+		
+		
+		
+	}
+	
+	public ArrayList<Customer> sortCustomerByNames(){	
+		Comparator<Customer> cust=Comparator.comparing(Customer::getName);
+		Collections.sort(list,cust);
+		return list;
+	}
+	
+	
+	
+	
+}
+

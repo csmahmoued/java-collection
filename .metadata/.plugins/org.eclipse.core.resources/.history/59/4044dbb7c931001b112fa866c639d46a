@@ -1,0 +1,14 @@
+package com.main
+
+fun main(arg:Array<String>){
+
+	var c=Circle();
+	
+	drawShap(c);
+	
+	}
+
+
+fun drawShap(shap:Shap){
+	shap.draw();
+}

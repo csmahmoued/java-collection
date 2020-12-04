@@ -1,0 +1,18 @@
+package com.main
+
+open class A{
+	var id:Int?=null;
+	var name:String?=null;
+	
+	fun show(){
+		println("|"+ this.name);
+	}
+}
+
+class B:A{
+	constructor(id:Int,name:String){
+		this.id=id;
+		this.name=name;
+	}
+	
+}

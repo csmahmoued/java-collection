@@ -1,0 +1,25 @@
+package com.main
+
+fun main(arg:Array<String>){
+		
+		println("please enter the x: ")
+		var x=readLine().toString();
+		println("please enter the y: ");
+	
+	
+	
+	
+	
+	
+	var y=readLine().toString();
+		
+	println("The Result:"+sum(x.toInt(),y.toInt()));
+		
+	
+	
+	}
+
+	fun sum(x:Int,y:Int):Int{
+		return x+y
+	}
+

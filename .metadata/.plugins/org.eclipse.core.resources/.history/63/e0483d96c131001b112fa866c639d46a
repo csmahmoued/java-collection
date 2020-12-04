@@ -1,0 +1,21 @@
+package com.main
+
+fun main(arg:Array<String>){
+
+	var p=Person("110");
+	println(p.toString());
+	}
+
+class Person(id:String){
+	var id:String?=null;
+	var name:String?=null;
+	init{
+		this.id=id;
+	}
+	
+	fun j():String{
+		return "id"+this.id;
+	}
+}
+
+

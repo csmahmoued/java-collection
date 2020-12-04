@@ -1,0 +1,39 @@
+package com.list;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class ArrayListImplemt {
+
+	public static void main(String[] args) {
+	
+		// create the ArrayList of Strings
+		ArrayList<String> names =new ArrayList<>();
+		
+		//add elements in Array
+		names.add("Jak");
+		names.add("Laila");
+		names.add("Mona");
+
+		// display elements of array by Foreach  
+		for(String n : names) {
+			System.out.println(n);
+		}
+		
+		// add another element it will add in the last index in array
+		names.add("Luis");
+		
+		// display elements by Print 
+		System.out.print(names);
+		
+		// remove element Mona in index [2]
+		names.remove(2);
+		
+		//display elements by Iterator
+		Iterator iterator=names.iterator(); 
+		while(iterator.hasNext()) {
+			System.out.println(iterator.next());
+		}
+	}
+
+}

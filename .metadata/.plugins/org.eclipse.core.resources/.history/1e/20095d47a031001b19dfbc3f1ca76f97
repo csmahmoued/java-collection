@@ -1,0 +1,14 @@
+package com.main
+
+fun main(arg:Array<String>){
+		println("hello kotlin");
+
+		
+	when(5){
+		1->println("ok1");
+		2->println("ok2")
+		5->println("ok5")
+	}
+	
+	}
+

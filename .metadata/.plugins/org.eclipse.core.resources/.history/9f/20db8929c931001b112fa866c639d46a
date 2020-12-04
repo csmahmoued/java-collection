@@ -1,0 +1,13 @@
+package com.main
+
+interface Shap{
+	
+	fun draw();
+}
+
+class Circle:Shap
+{
+	 override fun draw(){
+		println("this circle")
+	}
+}

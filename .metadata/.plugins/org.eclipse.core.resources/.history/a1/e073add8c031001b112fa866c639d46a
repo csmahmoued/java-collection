@@ -1,0 +1,15 @@
+package com.main
+
+fun main(arg:Array<String>){
+
+	var p=Person();
+	println(p.id);
+	}
+
+class Person(){
+	var id:String?=null;
+	var name:String?=null;
+	
+}
+
+

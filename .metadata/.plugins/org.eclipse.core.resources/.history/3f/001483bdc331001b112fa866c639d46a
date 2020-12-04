@@ -1,0 +1,10 @@
+package com.main
+
+class A{
+	var id:Int?=null;
+	var name:String?=null;
+	
+	fun show(){
+		println("$this.id | $this.name");
+	}
+}

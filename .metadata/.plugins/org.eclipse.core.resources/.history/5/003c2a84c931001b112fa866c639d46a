@@ -1,0 +1,12 @@
+package com.main
+
+fun main(arg:Array<String>){
+
+	
+	
+	}
+
+
+fun drawShap(shap:Shap){
+	shap.draw();
+}

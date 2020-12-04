@@ -1,0 +1,29 @@
+package com.list.example;
+
+import java.util.ArrayList;
+
+public class CustomerServices {
+
+	private ArrayList<Customer> list;
+
+	public CustomerServices() {
+		list=new ArrayList<>();
+	}
+
+	public ArrayList<Customer> getAllCustomer(){
+		return list;
+	}
+	
+	public boolean addCustomer(Customer customer) {
+		return list.add(customer);
+	}
+	public Customer getCustomerById(int id) {	
+		return list.get(id-1);
+	}
+	
+	
+	
+	
+	
+}
+
